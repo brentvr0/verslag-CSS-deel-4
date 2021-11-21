@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>opdracht 3</title>
+
+    <nav>
+        <p><a href="index.html">index</a></p>
+    </nav>
+</head>
+<body>
+
+<p>Waarom staat de tekst in de blokken horizontaal gecentreerd?</p>
+
+<p>Omdat in de styles.css staat bij div dat de text-align ingesteld staat op center</p>
+<img src="images/opdracht%203%20center.png">
+
+<p>Ga na dat een property vertical‐align:center geen effect heeft. Waarom eigenlijk niet?</p>
+
+<p>het enig dat het doet is het cijfer linksboven zetten in plaats van centraal</p>
+<p>Technisch gezien gaat dit CSS-kenmerk niet op andere soorten elementen.
+    Wanneer de beginnende ontwikkelaar vertical-align toepast op normale block-elementen (zoals een standaard div),
+    stellen de meeste browsers de waarde in op alle inline onderliggende elementen van dat element.</p>
+<img src="images/opdracht%203%20vertical-align.png">
+
+<p>Ga na dat vertical‐align:middle er niet voor zorgt dat de tekst verticaal gecentreerd wordt. Wat doet vertical‐align dan wel?</p>
+
+<p>Nee, het zet gewoon weer de cijfers links van boven.</p>
+<p>volgens deze link zijn er 2 methoden om dit te gebruiken.</p>
+<p>Methode 1: U kunt de inhoud die u wilt centreren in een blok plaatsen en een vaste hoogte opgeven voor dat binnenste inhoudsblok.
+    Het is goed om deze inhoud absoluut te positioneren.
+    (Meestal prima, aangezien het bovenliggende element waarin de inhoud is gecentreerd, nog steeds in beweging kan zijn.</p>
+<p>Methode 2: U hebt slechts één regel tekst die u wilt centreren.
+    U kunt een vaste hoogte opgeven voor het bovenliggende element.</p>
+<p><a href="http://phrogz.net/css/vertical-align/index.html">vertical-align website</a></p>
+<img src="images/opdracht%203%20vertical-align%20middle.png">
+
+<p>Wat is de ‘simpele’ manier om een één enkele regel tekst verticaal te centreren? (tip:line‐height)</p>
+<p>Gebruik line-height voor eenvoudige verticale centrering om een enkele regel tekst of een pictogram in de container verticaal te centreren,
+    kunnen we de eigenschap line-height gebruiken.
+    Deze eigenschap bepaalt de hoogte van een regel in een tekstblok en voegt een gelijke hoeveelheid ruimte toe boven en
+    onder het regelvlak met inline-elementen.</p>
+
+<p>Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren? (tip: table cell)</p>
+<p>Het is mogelijk om de horizontale uitlijning van items in tabelcellen te wijzigen.
+    Tabelgegevens worden standaard links uitgelijnd; tabelkoppen naar het midden.
+    Om de uitlijning in één cel te wijzigen, voegt u het juiste "ALIGN="-attribuut in de code voor die cel in.
+    Als u de uitlijning in alle cellen in een rij wilt wijzigen, voegt u het juiste uitlijningskenmerk in de code voor die rij in.</p>
+
+<p>In 'styles.css' staan twee verschillende CSS regels die de height instellen van een element met class="area tall".
+    Waarom krijgt de regel voor class 'tall' voorrang?</p>
+
+<p>omdat die achter de class area komt, dus gaan ze eerst die class uitvoeren en daarna de class tall en daar zie je nu dat juist de hoogte is aangepast.</p>
+</body>
+</html>
